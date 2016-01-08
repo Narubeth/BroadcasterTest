@@ -45,6 +45,7 @@ public class DetailListView extends AppCompatActivity {
                 //intent to ShowVideoActivity
                 Intent objIntent = new Intent(DetailListView.this, ShowVideoActivity.class);
                 objIntent.putExtra("Title", titleStrings[i]);
+                objIntent.putExtra("Video", R.raw.talkname1);
                 startActivity(objIntent);
 
             }   //event
