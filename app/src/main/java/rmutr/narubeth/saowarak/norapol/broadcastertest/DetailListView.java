@@ -3,6 +3,7 @@ package rmutr.narubeth.saowarak.norapol.broadcastertest;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.ListView;
 
 public class DetailListView extends AppCompatActivity {
@@ -24,6 +25,10 @@ public class DetailListView extends AppCompatActivity {
         createListViw();
 
     }   // Main Method
+
+    public void clickBackListView(View view) {
+        finish();
+    }
 
     private void createListViw() {
 
